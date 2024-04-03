@@ -1,4 +1,4 @@
-# InstallAD
+# Installing Active Directory
 Comprehensive Guide to Installing and Configuring Active Directory Domain Services on Windows Server 2022
 
 ## Part 1: Initializing the Configuration
