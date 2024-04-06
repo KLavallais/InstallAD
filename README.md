@@ -5,7 +5,7 @@ Comprehensive Guide to Installing and Configuring Active Directory Domain Servic
 
 ### 1. Welcome to Server Manager
 ![Welcome to Server Manager](https://github.com/KLavallais/KLavallais/blob/main/images/Screenshot_01.png?raw=true)
-*The Server Manager Dashboard - your centralized console for managing server roles and features.*
+*The Server Manager Dashboard - your centralized console for managing server roles and features. Select option 2: "Add roles and features".*
 
 ### 2. Choosing the Installation Type
 ![Select Installation Type](https://github.com/KLavallais/KLavallais/blob/main/images/Screenshot_02.png?raw=true)
