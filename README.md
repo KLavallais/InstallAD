@@ -13,7 +13,7 @@ Comprehensive Guide to Installing and Configuring Active Directory Domain Servic
 
 ### 3. Server Manager Notifications
 ![Server Manager Notifications](https://github.com/KLavallais/KLavallais/blob/main/images/Screenshot_03.png?raw=true)
-*Notifications alert you to important actions. Here's where you'll find prompts for post-deployment tasks.*
+*Notifications alert you to important actions. Here's where you'll find prompts for post-deployment tasks. Click 'Next' to continue.*
 
 ### 4. Promoting a Server to a Domain Controller
 ![Promoting to Domain Controller](https://github.com/KLavallais/KLavallais/blob/main/images/Screenshot_04.png?raw=true)
