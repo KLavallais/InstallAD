@@ -11,31 +11,36 @@ Comprehensive Guide to Installing and Configuring Active Directory Domain Servic
 ![Select Installation Type](https://github.com/KLavallais/KLavallais/blob/main/images/Screenshot_02.png?raw=true)
 *Select 'Role-based or feature-based installation' to proceed.*
 
-### 3. Server Manager Notifications
-![Server Manager Notifications](https://github.com/KLavallais/KLavallais/blob/main/images/Screenshot_03.png?raw=true)
-*Notifications alert you to important actions. Here's where you'll find prompts for post-deployment tasks. Click 'Next' to continue.*
+### 3. Server Selection for Role Installation
+![Server Selection](https://github.com/KLavallais/KLavallais/blob/main/images/Screenshot_03.png?raw=true)
+*Here's where you'll find prompts for post-deployment tasksSelecting the destination server for role installation in the Add Roles and Features Wizard on Windows Server 2022. Click 'Next' to continue.*
 
-### 4. Promoting a Server to a Domain Controller
-![Promoting to Domain Controller](https://github.com/KLavallais/KLavallais/blob/main/images/Screenshot_04.png?raw=true)
-*After adding roles, you'll receive a notification to promote your server to a domain controller.*
+### 4. Selecting Server Roles
+![Selecting Server Roles](https://github.com/KLavallais/KLavallais/blob/main/images/Screenshot_04.png?raw=true)
+*Choose 'Active Directory Domain Services' from the list of roles to install on your server. Once selected, additional features required for AD DS will also be installed.*
 
-## Part 2: Adding Roles and Features
+## Part 2: Select Server Roles and Confirm Installation
 
-### 1. The Add Roles and Features Wizard
-![Add Roles and Features Wizard](https://github.com/KLavallais/KLavallais/blob/main/images/Screenshot_05.png?raw=true)
-*The Add Roles and Features Wizard is where you'll begin adding new functions to your server.*
+After selecting the server, you will choose the roles to install. For Active Directory Domain Services:
 
-### 2. Selecting a Destination Server
-![Selecting Destination Server](https://github.com/KLavallais/KLavallais/blob/main/images/Screenshot_06.png?raw=true)
-*Choose a server from the server pool to install the Active Directory role.*
+1. Check the box next to "Active Directory Domain Services".
+2. Additional features required for AD DS will be automatically selected. Click "Add Features".
 
-### 3. Choosing Active Directory Domain Services
-![Choosing AD Domain Services](https://github.com/KLavallais/KLavallais/blob/main/images/Screenshot_07.png?raw=true)
-*Check 'Active Directory Domain Services' to install the necessary AD DS role.*
+   ![Select Server Roles](https://github.com/KLavallais/KLavallais/blob/main/images/Screenshot_05.png?raw=true)
 
-### 4. Confirming Required Features
-![Confirming Required Features](https://github.com/KLavallais/KLavallais/blob/main/images/Screenshot_08.png?raw=true)
-*Confirm the additional features required for AD DS to function properly.*
+3. After adding features, click "Next" to review your selections. Then click "Install" to start the installation process. You will see the progress bar indicating the installation status.
+
+   ![Installation Progress](https://github.com/KLavallais/KLavallais/blob/main/images/Screenshot_06.png?raw=true)
+
+*Ensure you have all necessary roles and features checked before proceeding with the installation.*
+
+### 3. Access Notifications for Post-Deployment Configuration
+![Server Manager Notifications](https://github.com/KLavallais/KLavallais/blob/main/images/Screenshot_07.png?raw=true)
+*Once the role and features are installed, access the notifications area in 'Server Manager' to promote the server to a domain controller.*
+
+### 4. Promote Server to a Domain Controller
+![Promote to Domain Controller](https://github.com/KLavallais/KLavallais/blob/main/images/Screenshot_08.png?raw=true)
+*From the notifications area, select 'Promote this server to a domain controller' to begin post-deployment configuration.*
 
 ## Part 3: Domain Controller Promotion
 
