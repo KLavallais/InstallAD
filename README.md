@@ -1,6 +1,27 @@
 # Installing Active Directory
 Comprehensive Guide to Installing and Configuring Active Directory Domain Services on Windows Server 2022
 
+---
+
+## Tools/Programs Used:
+- **Windows Server 2022**: Operating system used to configure and install Active Directory.
+- **Server Manager**: Built-in tool for managing roles and features in Windows Server.
+- **Active Directory Domain Services (AD DS)**: Directory service for Windows domain networks.
+- **Remote Desktop**: Used to connect to the server for management.
+- **DNS**: Domain Name System setup as part of AD DS configuration.
+
+---
+
+## Skills Demonstrated:
+- Installing roles and features on Windows Server.
+- Configuring Active Directory Domain Services (AD DS).
+- Promoting a server to a domain controller.
+- Managing Active Directory using AD DS tools.
+- Troubleshooting installation prerequisites and issues.
+- Remote management and post-installation verification.
+
+---
+
 ## Part 1: Initializing the Configuration
 
 ### 1. Welcome to Server Manager
